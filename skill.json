@@ -1,0 +1,159 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Chatbot con informazioni sulla salute degli occhi",
+          "examplePhrases": [
+            "Alexa, apri essilor cosmo"
+          ],
+          "keywords": [],
+          "name": "Cosmo",
+          "description": "Per iniziare, dì \"Alexa, apri Essilor Cosmo\"\n\nIn qualsiasi momento, puoi interrompere dicendo \"Alexa, interrompi\"",
+          "smallIconUri": "file://assets/images/it-IT_smallIconUri.png",
+          "largeIconUri": "file://assets/images/it-IT_largeIconUri.png"
+        },
+        "en-CA": {
+          "summary": "Learn fun facts about eye health",
+          "examplePhrases": [
+            "Alexa open essilor cosmo",
+            "Alexa ask essilor cosmo to tell me an eye health fact"
+          ],
+          "keywords": [
+            "eye",
+            "health",
+            "facts",
+            "trivia"
+          ],
+          "name": "Cosmo",
+          "description": "To start, just say \"Alexa, open Essilor Cosmo\"\n\nAt anytime, you can stop by saying \"Alexa, stop\"",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        },
+        "en-US": {
+          "summary": "Learn fun facts about eye health",
+          "examplePhrases": [
+            "Alexa open essilor cosmo",
+            "Alexa ask essilor cosmo to tell me an eye health fact"
+          ],
+          "keywords": [
+            "eye",
+            "health",
+            "facts",
+            "trivia"
+          ],
+          "name": "Cosmo",
+          "description": "To start, just say \"Alexa, open Essilor Cosmo\"\n\nAt anytime, you can stop by saying \"Alexa, stop\"",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-AU": {
+          "summary": "Learn fun facts about eye health",
+          "examplePhrases": [
+            "Alexa open essilor cosmo",
+            "Alexa ask essilor cosmo to tell me an eye health fact"
+          ],
+          "keywords": [
+            "eye",
+            "health",
+            "facts",
+            "trivia"
+          ],
+          "name": "Cosmo",
+          "description": "To start, just say \"Alexa, open Essilor Cosmo\"\n\nAt anytime, you can stop by saying \"Alexa, stop\"",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "fr-FR": {
+          "summary": "Chatbot avec des faits sur la santé oculaire",
+          "examplePhrases": [
+            "Alexa, ouvre essilor cosmo"
+          ],
+          "keywords": [],
+          "name": "Cosmo",
+          "description": "Pour commencer, dites simplement \"Alexa, ouvre Essilor Cosmo\"\n\nÀ tout moment, vous pouvez vous arrêter en disant «Alexa, arrête»",
+          "smallIconUri": "file://assets/images/fr-FR_smallIconUri.png",
+          "largeIconUri": "file://assets/images/fr-FR_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "Learn fun facts about eye health",
+          "examplePhrases": [
+            "Alexa open essilor cosmo",
+            "Alexa ask essilor cosmo to tell me an eye health fact"
+          ],
+          "keywords": [
+            "eye",
+            "health",
+            "facts",
+            "trivia"
+          ],
+          "name": "Cosmo",
+          "description": "To start, just say \"Alexa, open Essilor Cosmo\"\n\nAt anytime, you can stop by saying \"Alexa, stop\"",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        },
+        "fr-CA": {
+          "summary": "Chatbot avec des faits sur la santé oculaire",
+          "examplePhrases": [
+            "Alexa, ouvre essilor cosmo"
+          ],
+          "keywords": [],
+          "name": "Cosmo",
+          "description": "Pour commencer, dites simplement \"Alexa, ouvre Essilor Cosmo\"\n\nÀ tout moment, vous pouvez vous arrêter en disant «Alexa, arrête»",
+          "smallIconUri": "file://assets/images/fr-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/fr-CA_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Simply say: Alexa, open essilor cosmo to get some example facts about eye health",
+      "category": "HEALTH_AND_FITNESS",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:265278236674:function:ca256dba-7d4a-4996-8155-445bfda1e76d:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:265278236674:function:ca256dba-7d4a-4996-8155-445bfda1e76d:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:265278236674:function:ca256dba-7d4a-4996-8155-445bfda1e76d:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:265278236674:function:ca256dba-7d4a-4996-8155-445bfda1e76d:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "it-IT": {},
+        "en-CA": {},
+        "en-US": {},
+        "en-AU": {},
+        "fr-FR": {},
+        "en-GB": {},
+        "fr-CA": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

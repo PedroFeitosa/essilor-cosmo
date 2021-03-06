@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "essilor cosmo",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "slots": [],
+          "samples": [
+            "dis moi quelque chose de nouveau",
+            "un fait",
+            "un fait de la santé des yeux",
+            "dites-moi un fait",
+            "dites-moi un fait de la santé des yeux",
+            "Donnez-moi un fait",
+            "donnez-moi un fait de la santé des yeux",
+            "dites-moi quelque chose que je ne sais pas",
+            "me donner quelques informations",
+            "dis moi quelque chose"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}

@@ -1,0 +1,52 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "essilor cosmo",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "slots": [],
+          "samples": [
+            "tell me something new",
+            "a fact",
+            "an eye health fact",
+            "tell me a fact",
+            "tell me an eye health fact",
+            "give me a fact",
+            "give me an eye health fact",
+            "tell me something I don\u0027t know",
+            "give me some information",
+            "tell me something"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "2"
+}
